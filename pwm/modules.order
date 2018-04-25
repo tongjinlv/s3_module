@@ -1,0 +1,2 @@
+kernel//root/SDK/build_s3evb/module/pwm/pwm.ko
+kernel//root/SDK/build_s3evb/module/pwm/pwm-sunxi.ko
