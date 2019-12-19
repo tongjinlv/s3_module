@@ -586,14 +586,14 @@ deps_/root/SDK/build_s3evb/module/gc2023/gc2023.o := \
   include/linux/miscdevice.h \
   include/linux/major.h \
   /root/SDK/build_s3evb/module/gc2023/gc2023_30fps.h \
-  /root/SDK/build_s3evb/module/gc2023/../../linux-3.4/drivers/media/video/sunxi-vfe/isp_cfg/isp_cfg.h \
-  /root/SDK/build_s3evb/module/gc2023/../../linux-3.4/drivers/media/video/sunxi-vfe/isp_cfg/../lib/bsp_isp_algo.h \
-  /root/SDK/build_s3evb/module/gc2023/../../linux-3.4/drivers/media/video/sunxi-vfe/isp_cfg/../lib/isp_module_cfg.h \
-  /root/SDK/build_s3evb/module/gc2023/../../linux-3.4/drivers/media/video/sunxi-vfe/isp_cfg/../lib/bsp_isp_comm.h \
+  include/../../linux-3.4/drivers/media/video/sunxi-vfe/isp_cfg/isp_cfg.h \
+  include/../../linux-3.4/drivers/media/video/sunxi-vfe/isp_cfg/../lib/bsp_isp_algo.h \
+  include/../../linux-3.4/drivers/media/video/sunxi-vfe/isp_cfg/../lib/isp_module_cfg.h \
+  include/../../linux-3.4/drivers/media/video/sunxi-vfe/isp_cfg/../lib/bsp_isp_comm.h \
   /root/SDK/build_s3evb/module/gc2023/gc2023_60fps.h \
-  /root/SDK/build_s3evb/module/gc2023/../../linux-3.4/drivers/media/video/sunxi-vfe/isp_cfg/SENSOR_H/gc2023_mipi_2lane_default_v3_60fps.h \
-  /root/SDK/build_s3evb/module/gc2023/../../linux-3.4/drivers/media/video/sunxi-vfe/device/camera.h \
-  /root/SDK/build_s3evb/module/gc2023/../../linux-3.4/drivers/media/video/sunxi-vfe/device/../vfe.h \
+  include/../../linux-3.4/drivers/media/video/sunxi-vfe/isp_cfg/SENSOR_H/gc2023_mipi_2lane_default_v3_60fps.h \
+  include/../../linux-3.4/drivers/media/video/sunxi-vfe/device/camera.h \
+  include/../../linux-3.4/drivers/media/video/sunxi-vfe/device/../vfe.h \
     $(wildcard include/config/has/earlysuspend.h) \
     $(wildcard include/config/es.h) \
   include/linux/interrupt.h \
@@ -613,7 +613,7 @@ deps_/root/SDK/build_s3evb/module/gc2023/gc2023.o := \
     $(wildcard include/config/fpga/v7/platform.h) \
   include/linux/irq_cpustat.h \
   include/media/videobuf-core.h \
-  /root/SDK/build_s3evb/module/gc2023/../../linux-3.4/drivers/media/video/sunxi-vfe/device/../platform_cfg.h \
+  include/../../linux-3.4/drivers/media/video/sunxi-vfe/device/../platform_cfg.h \
   arch/arm/mach-sunxi/include/mach/platform.h \
   arch/arm/mach-sunxi/include/mach/hardware.h \
   arch/arm/mach-sunxi/include/mach/sun8i/platform-sun8iw8p1.h \
@@ -650,15 +650,15 @@ deps_/root/SDK/build_s3evb/module/gc2023/gc2023.o := \
   arch/arm/mach-sunxi/include/mach/sys_config.h \
     $(wildcard include/config/h.h) \
   arch/arm/mach-sunxi/include/mach/sunxi-chip.h \
-  /root/SDK/build_s3evb/module/gc2023/../../linux-3.4/drivers/media/video/sunxi-vfe/device/../platform/sun8iw8p1_vfe_cfg.h \
-  /root/SDK/build_s3evb/module/gc2023/../../linux-3.4/drivers/media/video/sunxi-vfe/device/../flash_light/flash.h \
-  /root/SDK/build_s3evb/module/gc2023/../../linux-3.4/drivers/media/video/sunxi-vfe/device/../flash_light/../vfe_subdev.h \
-  /root/SDK/build_s3evb/module/gc2023/../../linux-3.4/drivers/media/video/sunxi-vfe/device/../flash_light/../device/camera_cfg.h \
-  /root/SDK/build_s3evb/module/gc2023/../../linux-3.4/drivers/media/video/sunxi-vfe/device/../flash_light/../device/../lib/bsp_isp_algo.h \
-  /root/SDK/build_s3evb/module/gc2023/../../linux-3.4/drivers/media/video/sunxi-vfe/device/../flash_light/../device/../isp_cfg/isp_cfg.h \
-  /root/SDK/build_s3evb/module/gc2023/../../linux-3.4/drivers/media/video/sunxi-vfe/device/../flash_light/../vfe_os.h \
+  include/../../linux-3.4/drivers/media/video/sunxi-vfe/device/../platform/sun8iw8p1_vfe_cfg.h \
+  include/../../linux-3.4/drivers/media/video/sunxi-vfe/device/../flash_light/flash.h \
+  include/../../linux-3.4/drivers/media/video/sunxi-vfe/device/../flash_light/../vfe_subdev.h \
+  include/../../linux-3.4/drivers/media/video/sunxi-vfe/device/../flash_light/../device/camera_cfg.h \
+  include/../../linux-3.4/drivers/media/video/sunxi-vfe/device/../flash_light/../device/../lib/bsp_isp_algo.h \
+  include/../../linux-3.4/drivers/media/video/sunxi-vfe/device/../flash_light/../device/../isp_cfg/isp_cfg.h \
+  include/../../linux-3.4/drivers/media/video/sunxi-vfe/device/../flash_light/../vfe_os.h \
   include/linux/clk/sunxi.h \
-  /root/SDK/build_s3evb/module/gc2023/../../linux-3.4/drivers/media/video/sunxi-vfe/device/../flash_light/../platform_cfg.h \
+  include/../../linux-3.4/drivers/media/video/sunxi-vfe/device/../flash_light/../platform_cfg.h \
   include/linux/dma-mapping.h \
     $(wildcard include/config/has/dma.h) \
     $(wildcard include/config/arch/has/dma/set/coherent/mask.h) \
@@ -726,28 +726,28 @@ deps_/root/SDK/build_s3evb/module/gc2023/gc2023.o := \
     $(wildcard include/config/have/generic/dma/coherent.h) \
   include/asm-generic/dma-mapping-common.h \
   include/linux/kmemcheck.h \
-  /root/SDK/build_s3evb/module/gc2023/../../linux-3.4/drivers/media/video/sunxi-vfe/device/../actuator/actuator.h \
+  include/../../linux-3.4/drivers/media/video/sunxi-vfe/device/../actuator/actuator.h \
   include/media/v4l2-ioctl.h \
   include/linux/platform_device.h \
     $(wildcard include/config/suspend.h) \
     $(wildcard include/config/hibernate/callbacks.h) \
-  /root/SDK/build_s3evb/module/gc2023/../../linux-3.4/drivers/media/video/sunxi-vfe/device/../actuator/../csi_cci/cci_helper.h \
-  /root/SDK/build_s3evb/module/gc2023/../../linux-3.4/drivers/media/video/sunxi-vfe/device/../csi/bsp_csi.h \
-  /root/SDK/build_s3evb/module/gc2023/../../linux-3.4/drivers/media/video/sunxi-vfe/device/../csi/csi_reg.h \
-  /root/SDK/build_s3evb/module/gc2023/../../linux-3.4/drivers/media/video/sunxi-vfe/device/../csi/../bsp_common.h \
-  /root/SDK/build_s3evb/module/gc2023/../../linux-3.4/drivers/media/video/sunxi-vfe/device/../mipi_csi/bsp_mipi_csi.h \
-  /root/SDK/build_s3evb/module/gc2023/../../linux-3.4/drivers/media/video/sunxi-vfe/device/../mipi_csi/protocol.h \
-  /root/SDK/build_s3evb/module/gc2023/../../linux-3.4/drivers/media/video/sunxi-vfe/device/../mipi_csi/../bsp_common.h \
-  /root/SDK/build_s3evb/module/gc2023/../../linux-3.4/drivers/media/video/sunxi-vfe/device/../lib/bsp_isp.h \
-  /root/SDK/build_s3evb/module/gc2023/../../linux-3.4/drivers/media/video/sunxi-vfe/device/../lib/../bsp_common.h \
-  /root/SDK/build_s3evb/module/gc2023/../../linux-3.4/drivers/media/video/sunxi-vfe/device/../lib/bsp_isp_comm.h \
-  /root/SDK/build_s3evb/module/gc2023/../../linux-3.4/drivers/media/video/sunxi-vfe/device/../lib/bsp_isp_algo.h \
-  /root/SDK/build_s3evb/module/gc2023/../../linux-3.4/drivers/media/video/sunxi-vfe/device/../vfe_subdev.h \
-  /root/SDK/build_s3evb/module/gc2023/../../linux-3.4/drivers/media/video/sunxi-vfe/device/../vfe_os.h \
-  /root/SDK/build_s3evb/module/gc2023/../../linux-3.4/drivers/media/video/sunxi-vfe/device/../vfe_subdev.h \
-  /root/SDK/build_s3evb/module/gc2023/../../linux-3.4/drivers/media/video/sunxi-vfe/device/../csi_cci/cci_helper.h \
-  /root/SDK/build_s3evb/module/gc2023/../../linux-3.4/drivers/media/video/sunxi-vfe/device/camera_cfg.h \
-  /root/SDK/build_s3evb/module/gc2023/../../linux-3.4/drivers/media/video/sunxi-vfe/device/../platform_cfg.h \
+  include/../../linux-3.4/drivers/media/video/sunxi-vfe/device/../actuator/../csi_cci/cci_helper.h \
+  include/../../linux-3.4/drivers/media/video/sunxi-vfe/device/../csi/bsp_csi.h \
+  include/../../linux-3.4/drivers/media/video/sunxi-vfe/device/../csi/csi_reg.h \
+  include/../../linux-3.4/drivers/media/video/sunxi-vfe/device/../csi/../bsp_common.h \
+  include/../../linux-3.4/drivers/media/video/sunxi-vfe/device/../mipi_csi/bsp_mipi_csi.h \
+  include/../../linux-3.4/drivers/media/video/sunxi-vfe/device/../mipi_csi/protocol.h \
+  include/../../linux-3.4/drivers/media/video/sunxi-vfe/device/../mipi_csi/../bsp_common.h \
+  include/../../linux-3.4/drivers/media/video/sunxi-vfe/device/../lib/bsp_isp.h \
+  include/../../linux-3.4/drivers/media/video/sunxi-vfe/device/../lib/../bsp_common.h \
+  include/../../linux-3.4/drivers/media/video/sunxi-vfe/device/../lib/bsp_isp_comm.h \
+  include/../../linux-3.4/drivers/media/video/sunxi-vfe/device/../lib/bsp_isp_algo.h \
+  include/../../linux-3.4/drivers/media/video/sunxi-vfe/device/../vfe_subdev.h \
+  include/../../linux-3.4/drivers/media/video/sunxi-vfe/device/../vfe_os.h \
+  include/../../linux-3.4/drivers/media/video/sunxi-vfe/device/../vfe_subdev.h \
+  include/../../linux-3.4/drivers/media/video/sunxi-vfe/device/../csi_cci/cci_helper.h \
+  include/../../linux-3.4/drivers/media/video/sunxi-vfe/device/camera_cfg.h \
+  include/../../linux-3.4/drivers/media/video/sunxi-vfe/device/../platform_cfg.h \
 
 /root/SDK/build_s3evb/module/gc2023/gc2023.o: $(deps_/root/SDK/build_s3evb/module/gc2023/gc2023.o)
 

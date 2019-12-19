@@ -1,4 +1,0 @@
-# drivers/alan_test/Makefile
-# makefile for the ALAN_TEST
-
-obj-$(CONFIG_MTGPIO)    += mt_gpio.o

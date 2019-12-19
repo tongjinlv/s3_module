@@ -20,17 +20,9 @@ __attribute__((section("__versions"))) = {
 	{ 0x1f3e07f7, "module_layout" },
 	{ 0xb6a3a1d5, "misc_deregister" },
 	{ 0x4480a049, "sysfs_remove_group" },
-	{ 0xcca27eeb, "del_timer" },
 	{ 0xbd738ed9, "sysfs_create_group" },
 	{ 0xd7565690, "misc_register" },
-	{ 0x132a7a5b, "init_timer_key" },
-	{ 0x1b68aba6, "pin_config_set" },
-	{ 0xe2d5255a, "strcmp" },
-	{ 0x91715312, "sprintf" },
 	{ 0x20000329, "simple_strtoul" },
-	{ 0x7d11c268, "jiffies" },
-	{ 0xc8fd727e, "mod_timer" },
-	{ 0x2196324, "__aeabi_idiv" },
 	{ 0x27e1a049, "printk" },
 };
 
@@ -40,4 +32,4 @@ __attribute__((section(".modinfo"))) =
 "depends=";
 
 
-MODULE_INFO(srcversion, "7D6558C5305A482ED7D9920");
+MODULE_INFO(srcversion, "F2A0C82CBF525B81A375E03");

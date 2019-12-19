@@ -1,8 +1,9 @@
-cmd_/home/tom/work/mysochip/build_s3evb/module/led/led.o := arm-linux-gnueabi-gcc -Wp,-MD,/home/tom/work/mysochip/build_s3evb/module/led/.led.o.d  -nostdinc -isystem /home/tom/work/mysochip/build_s3evb/out/sun8iw8p1-linaro-5.3/linux/common/buildroot/host/opt/ext-toolchain/bin/../lib/gcc/arm-linux-gnueabi/5.3.1/include -I/home/tom/work/mysochip/build_s3evb/linux-3.4/arch/arm/include -Iarch/arm/include/generated -Iinclude  -include /home/tom/work/mysochip/build_s3evb/linux-3.4/include/linux/kconfig.h -D__KERNEL__ -mlittle-endian -Iarch/arm/mach-sunxi/include -Wall -Wundef -Wstrict-prototypes -Wno-trigraphs -fno-strict-aliasing -fno-common -Werror-implicit-function-declaration -Wno-format-security -fno-delete-null-pointer-checks -Os -marm -fno-dwarf2-cfi-asm -fno-omit-frame-pointer -mapcs -mno-sched-prolog -mabi=aapcs-linux -mno-thumb-interwork -D__LINUX_ARM_ARCH__=7 -march=armv7-a -msoft-float -Uarm -Wframe-larger-than=1024 -fno-stack-protector -Wno-unused-but-set-variable -fno-omit-frame-pointer -fno-optimize-sibling-calls -g -Wdeclaration-after-statement -Wno-pointer-sign -fno-strict-overflow -fconserve-stack -DCC_HAVE_ASM_GOTO  -DMODULE  -D"KBUILD_STR(s)=\#s" -D"KBUILD_BASENAME=KBUILD_STR(led)"  -D"KBUILD_MODNAME=KBUILD_STR(led)" -c -o /home/tom/work/mysochip/build_s3evb/module/led/.tmp_led.o /home/tom/work/mysochip/build_s3evb/module/led/led.c
+cmd_/root/SDK/build_s3evb/module/chgled/chgled.o := arm-linux-gnueabi-gcc -Wp,-MD,/root/SDK/build_s3evb/module/chgled/.chgled.o.d  -nostdinc -isystem /root/SDK/build_s3evb/out/sun8iw8p1-linaro-5.3/linux/common/buildroot/host/opt/ext-toolchain/bin/../lib/gcc/arm-linux-gnueabi/5.3.1/include -I/root/SDK/build_s3evb/linux-3.4/arch/arm/include -Iarch/arm/include/generated -Iinclude  -include /root/SDK/build_s3evb/linux-3.4/include/linux/kconfig.h -D__KERNEL__ -mlittle-endian -Iarch/arm/mach-sunxi/include -Wall -Wundef -Wstrict-prototypes -Wno-trigraphs -fno-strict-aliasing -fno-common -Werror-implicit-function-declaration -Wno-format-security -fno-delete-null-pointer-checks -Os -marm -fno-dwarf2-cfi-asm -fno-omit-frame-pointer -mapcs -mno-sched-prolog -mabi=aapcs-linux -mno-thumb-interwork -D__LINUX_ARM_ARCH__=7 -march=armv7-a -msoft-float -Uarm -Wframe-larger-than=1024 -fno-stack-protector -Wno-unused-but-set-variable -fno-omit-frame-pointer -fno-optimize-sibling-calls -g -Wdeclaration-after-statement -Wno-pointer-sign -fno-strict-overflow -fconserve-stack -DCC_HAVE_ASM_GOTO  -DMODULE  -D"KBUILD_STR(s)=\#s" -D"KBUILD_BASENAME=KBUILD_STR(chgled)"  -D"KBUILD_MODNAME=KBUILD_STR(chgled)" -c -o /root/SDK/build_s3evb/module/chgled/.tmp_chgled.o /root/SDK/build_s3evb/module/chgled/chgled.c
 
-source_/home/tom/work/mysochip/build_s3evb/module/led/led.o := /home/tom/work/mysochip/build_s3evb/module/led/led.c
+source_/root/SDK/build_s3evb/module/chgled/chgled.o := /root/SDK/build_s3evb/module/chgled/chgled.c
 
-deps_/home/tom/work/mysochip/build_s3evb/module/led/led.o := \
+deps_/root/SDK/build_s3evb/module/chgled/chgled.o := \
+    $(wildcard include/config/has/earlysuspend.h) \
   include/linux/kernel.h \
     $(wildcard include/config/lbdaf.h) \
     $(wildcard include/config/preempt/voluntary.h) \
@@ -19,7 +20,7 @@ deps_/home/tom/work/mysochip/build_s3evb/module/led/led.o := \
     $(wildcard include/config/arch/dma/addr/t/64bit.h) \
     $(wildcard include/config/phys/addr/t/64bit.h) \
     $(wildcard include/config/64bit.h) \
-  /home/tom/work/mysochip/build_s3evb/linux-3.4/arch/arm/include/asm/types.h \
+  /root/SDK/build_s3evb/linux-3.4/arch/arm/include/asm/types.h \
   include/asm-generic/int-ll64.h \
   arch/arm/include/generated/asm/bitsperlong.h \
   include/asm-generic/bitsperlong.h \
@@ -35,13 +36,13 @@ deps_/home/tom/work/mysochip/build_s3evb/module/led/led.o := \
     $(wildcard include/config/arch/supports/optimized/inlining.h) \
     $(wildcard include/config/optimize/inlining.h) \
   include/linux/compiler-gcc5.h \
-  /home/tom/work/mysochip/build_s3evb/linux-3.4/arch/arm/include/asm/posix_types.h \
+  /root/SDK/build_s3evb/linux-3.4/arch/arm/include/asm/posix_types.h \
   include/asm-generic/posix_types.h \
-  /home/tom/work/mysochip/build_s3evb/out/sun8iw8p1-linaro-5.3/linux/common/buildroot/host/opt/ext-toolchain/lib/gcc/arm-linux-gnueabi/5.3.1/include/stdarg.h \
+  /root/SDK/build_s3evb/out/sun8iw8p1-linaro-5.3/linux/common/buildroot/host/opt/ext-toolchain/lib/gcc/arm-linux-gnueabi/5.3.1/include/stdarg.h \
   include/linux/linkage.h \
-  /home/tom/work/mysochip/build_s3evb/linux-3.4/arch/arm/include/asm/linkage.h \
+  /root/SDK/build_s3evb/linux-3.4/arch/arm/include/asm/linkage.h \
   include/linux/bitops.h \
-  /home/tom/work/mysochip/build_s3evb/linux-3.4/arch/arm/include/asm/bitops.h \
+  /root/SDK/build_s3evb/linux-3.4/arch/arm/include/asm/bitops.h \
     $(wildcard include/config/smp.h) \
   include/linux/irqflags.h \
     $(wildcard include/config/trace/irqflags.h) \
@@ -49,11 +50,11 @@ deps_/home/tom/work/mysochip/build_s3evb/module/led/led.o := \
     $(wildcard include/config/preempt/tracer.h) \
     $(wildcard include/config/trace/irqflags/support.h) \
   include/linux/typecheck.h \
-  /home/tom/work/mysochip/build_s3evb/linux-3.4/arch/arm/include/asm/irqflags.h \
-  /home/tom/work/mysochip/build_s3evb/linux-3.4/arch/arm/include/asm/ptrace.h \
+  /root/SDK/build_s3evb/linux-3.4/arch/arm/include/asm/irqflags.h \
+  /root/SDK/build_s3evb/linux-3.4/arch/arm/include/asm/ptrace.h \
     $(wildcard include/config/cpu/endian/be8.h) \
     $(wildcard include/config/arm/thumb.h) \
-  /home/tom/work/mysochip/build_s3evb/linux-3.4/arch/arm/include/asm/hwcap.h \
+  /root/SDK/build_s3evb/linux-3.4/arch/arm/include/asm/hwcap.h \
   include/asm-generic/bitops/non-atomic.h \
   include/asm-generic/bitops/fls64.h \
   include/asm-generic/bitops/sched.h \
@@ -62,10 +63,10 @@ deps_/home/tom/work/mysochip/build_s3evb/module/led/led.o := \
   include/asm-generic/bitops/const_hweight.h \
   include/asm-generic/bitops/lock.h \
   include/asm-generic/bitops/le.h \
-  /home/tom/work/mysochip/build_s3evb/linux-3.4/arch/arm/include/asm/byteorder.h \
+  /root/SDK/build_s3evb/linux-3.4/arch/arm/include/asm/byteorder.h \
   include/linux/byteorder/little_endian.h \
   include/linux/swab.h \
-  /home/tom/work/mysochip/build_s3evb/linux-3.4/arch/arm/include/asm/swab.h \
+  /root/SDK/build_s3evb/linux-3.4/arch/arm/include/asm/swab.h \
   include/linux/byteorder/generic.h \
   include/asm-generic/bitops/ext2-atomic-setbit.h \
   include/linux/log2.h \
@@ -109,17 +110,17 @@ deps_/home/tom/work/mysochip/build_s3evb/module/led/led.o := \
   include/linux/atomic.h \
     $(wildcard include/config/arch/has/atomic/or.h) \
     $(wildcard include/config/generic/atomic64.h) \
-  /home/tom/work/mysochip/build_s3evb/linux-3.4/arch/arm/include/asm/atomic.h \
-  /home/tom/work/mysochip/build_s3evb/linux-3.4/arch/arm/include/asm/barrier.h \
+  /root/SDK/build_s3evb/linux-3.4/arch/arm/include/asm/atomic.h \
+  /root/SDK/build_s3evb/linux-3.4/arch/arm/include/asm/barrier.h \
     $(wildcard include/config/cpu/32v6k.h) \
     $(wildcard include/config/cpu/xsc3.h) \
     $(wildcard include/config/cpu/fa526.h) \
     $(wildcard include/config/arch/has/barriers.h) \
     $(wildcard include/config/arm/dma/mem/bufferable.h) \
-  /home/tom/work/mysochip/build_s3evb/linux-3.4/arch/arm/include/asm/outercache.h \
+  /root/SDK/build_s3evb/linux-3.4/arch/arm/include/asm/outercache.h \
     $(wildcard include/config/outer/cache/sync.h) \
     $(wildcard include/config/outer/cache.h) \
-  /home/tom/work/mysochip/build_s3evb/linux-3.4/arch/arm/include/asm/cmpxchg.h \
+  /root/SDK/build_s3evb/linux-3.4/arch/arm/include/asm/cmpxchg.h \
     $(wildcard include/config/cpu/sa1100.h) \
     $(wildcard include/config/cpu/sa110.h) \
     $(wildcard include/config/cpu/v6.h) \
@@ -135,12 +136,12 @@ deps_/home/tom/work/mysochip/build_s3evb/module/led/led.o := \
     $(wildcard include/config/preempt/notifiers.h) \
   include/linux/thread_info.h \
     $(wildcard include/config/compat.h) \
-  /home/tom/work/mysochip/build_s3evb/linux-3.4/arch/arm/include/asm/thread_info.h \
+  /root/SDK/build_s3evb/linux-3.4/arch/arm/include/asm/thread_info.h \
     $(wildcard include/config/arm/thumbee.h) \
-  /home/tom/work/mysochip/build_s3evb/linux-3.4/arch/arm/include/asm/fpstate.h \
+  /root/SDK/build_s3evb/linux-3.4/arch/arm/include/asm/fpstate.h \
     $(wildcard include/config/vfpv3.h) \
     $(wildcard include/config/iwmmxt.h) \
-  /home/tom/work/mysochip/build_s3evb/linux-3.4/arch/arm/include/asm/page.h \
+  /root/SDK/build_s3evb/linux-3.4/arch/arm/include/asm/page.h \
     $(wildcard include/config/mmu.h) \
     $(wildcard include/config/cpu/copy/v3.h) \
     $(wildcard include/config/cpu/copy/v4wt.h) \
@@ -151,9 +152,9 @@ deps_/home/tom/work/mysochip/build_s3evb/module/led/led.o := \
     $(wildcard include/config/cpu/copy/v6.h) \
     $(wildcard include/config/arm/lpae.h) \
     $(wildcard include/config/have/arch/pfn/valid.h) \
-  /home/tom/work/mysochip/build_s3evb/linux-3.4/arch/arm/include/asm/glue.h \
-  /home/tom/work/mysochip/build_s3evb/linux-3.4/arch/arm/include/asm/pgtable-2level-types.h \
-  /home/tom/work/mysochip/build_s3evb/linux-3.4/arch/arm/include/asm/memory.h \
+  /root/SDK/build_s3evb/linux-3.4/arch/arm/include/asm/glue.h \
+  /root/SDK/build_s3evb/linux-3.4/arch/arm/include/asm/pgtable-2level-types.h \
+  /root/SDK/build_s3evb/linux-3.4/arch/arm/include/asm/memory.h \
     $(wildcard include/config/need/mach/memory/h.h) \
     $(wildcard include/config/page/offset.h) \
     $(wildcard include/config/thumb2/kernel.h) \
@@ -188,7 +189,7 @@ deps_/home/tom/work/mysochip/build_s3evb/module/led/led.o := \
     $(wildcard include/config/sparsemem/vmemmap.h) \
     $(wildcard include/config/sparsemem.h) \
   include/asm-generic/getorder.h \
-  /home/tom/work/mysochip/build_s3evb/linux-3.4/arch/arm/include/asm/domain.h \
+  /root/SDK/build_s3evb/linux-3.4/arch/arm/include/asm/domain.h \
     $(wildcard include/config/io/36.h) \
     $(wildcard include/config/cpu/use/domains.h) \
   include/linux/stringify.h \
@@ -197,22 +198,22 @@ deps_/home/tom/work/mysochip/build_s3evb/module/led/led.o := \
   include/linux/spinlock_types_up.h \
   include/linux/rwlock_types.h \
   include/linux/spinlock_up.h \
-  /home/tom/work/mysochip/build_s3evb/linux-3.4/arch/arm/include/asm/processor.h \
+  /root/SDK/build_s3evb/linux-3.4/arch/arm/include/asm/processor.h \
     $(wildcard include/config/have/hw/breakpoint.h) \
     $(wildcard include/config/arm/errata/754327.h) \
-  /home/tom/work/mysochip/build_s3evb/linux-3.4/arch/arm/include/asm/hw_breakpoint.h \
+  /root/SDK/build_s3evb/linux-3.4/arch/arm/include/asm/hw_breakpoint.h \
   include/linux/rwlock.h \
   include/linux/spinlock_api_up.h \
   include/linux/kref.h \
   include/linux/bug.h \
     $(wildcard include/config/generic/bug.h) \
-  /home/tom/work/mysochip/build_s3evb/linux-3.4/arch/arm/include/asm/bug.h \
+  /root/SDK/build_s3evb/linux-3.4/arch/arm/include/asm/bug.h \
     $(wildcard include/config/bug.h) \
     $(wildcard include/config/debug/bugverbose.h) \
   include/asm-generic/bug.h \
     $(wildcard include/config/generic/bug/relative/pointers.h) \
   include/linux/wait.h \
-  /home/tom/work/mysochip/build_s3evb/linux-3.4/arch/arm/include/asm/current.h \
+  /root/SDK/build_s3evb/linux-3.4/arch/arm/include/asm/current.h \
   include/linux/klist.h \
   include/linux/mutex.h \
     $(wildcard include/config/debug/mutexes.h) \
@@ -234,19 +235,19 @@ deps_/home/tom/work/mysochip/build_s3evb/module/led/led.o := \
     $(wildcard include/config/arch/uses/gettimeoffset.h) \
   include/linux/cache.h \
     $(wildcard include/config/arch/has/cache/line/size.h) \
-  /home/tom/work/mysochip/build_s3evb/linux-3.4/arch/arm/include/asm/cache.h \
+  /root/SDK/build_s3evb/linux-3.4/arch/arm/include/asm/cache.h \
     $(wildcard include/config/arm/l1/cache/shift.h) \
     $(wildcard include/config/aeabi.h) \
   include/linux/seqlock.h \
   include/linux/math64.h \
-  /home/tom/work/mysochip/build_s3evb/linux-3.4/arch/arm/include/asm/div64.h \
-  /home/tom/work/mysochip/build_s3evb/linux-3.4/arch/arm/include/asm/compiler.h \
+  /root/SDK/build_s3evb/linux-3.4/arch/arm/include/asm/div64.h \
+  /root/SDK/build_s3evb/linux-3.4/arch/arm/include/asm/compiler.h \
   include/linux/jiffies.h \
   include/linux/timex.h \
   include/linux/param.h \
-  /home/tom/work/mysochip/build_s3evb/linux-3.4/arch/arm/include/asm/param.h \
+  /root/SDK/build_s3evb/linux-3.4/arch/arm/include/asm/param.h \
     $(wildcard include/config/hz.h) \
-  /home/tom/work/mysochip/build_s3evb/linux-3.4/arch/arm/include/asm/timex.h \
+  /root/SDK/build_s3evb/linux-3.4/arch/arm/include/asm/timex.h \
   arch/arm/mach-sunxi/include/mach/timex.h \
   include/linux/debugobjects.h \
     $(wildcard include/config/debug/objects.h) \
@@ -255,7 +256,7 @@ deps_/home/tom/work/mysochip/build_s3evb/module/led/led.o := \
     $(wildcard include/config/nr/cpus.h) \
     $(wildcard include/config/base/small.h) \
   include/linux/completion.h \
-  /home/tom/work/mysochip/build_s3evb/linux-3.4/arch/arm/include/asm/device.h \
+  /root/SDK/build_s3evb/linux-3.4/arch/arm/include/asm/device.h \
     $(wildcard include/config/dmabounce.h) \
     $(wildcard include/config/iommu/api.h) \
     $(wildcard include/config/arm/dma/use/iommu.h) \
@@ -266,7 +267,7 @@ deps_/home/tom/work/mysochip/build_s3evb/module/led/led.o := \
   include/linux/gpio.h \
     $(wildcard include/config/generic/gpio.h) \
     $(wildcard include/config/arch/have/custom/gpio/h.h) \
-  /home/tom/work/mysochip/build_s3evb/linux-3.4/arch/arm/include/asm/gpio.h \
+  /root/SDK/build_s3evb/linux-3.4/arch/arm/include/asm/gpio.h \
     $(wildcard include/config/arch/nr/gpio.h) \
   arch/arm/mach-sunxi/include/mach/gpio.h \
   include/linux/slab.h \
@@ -303,7 +304,7 @@ deps_/home/tom/work/mysochip/build_s3evb/module/led/led.o := \
   include/linux/bitmap.h \
   include/linux/string.h \
     $(wildcard include/config/binary/printf.h) \
-  /home/tom/work/mysochip/build_s3evb/linux-3.4/arch/arm/include/asm/string.h \
+  /root/SDK/build_s3evb/linux-3.4/arch/arm/include/asm/string.h \
   include/linux/pageblock-flags.h \
     $(wildcard include/config/hugetlb/page.h) \
     $(wildcard include/config/hugetlb/page/size/variable.h) \
@@ -348,7 +349,7 @@ deps_/home/tom/work/mysochip/build_s3evb/module/led/led.o := \
   include/asm-generic/percpu.h \
   include/linux/percpu-defs.h \
     $(wildcard include/config/debug/force/weak/per/cpu.h) \
-  /home/tom/work/mysochip/build_s3evb/linux-3.4/arch/arm/include/asm/topology.h \
+  /root/SDK/build_s3evb/linux-3.4/arch/arm/include/asm/topology.h \
     $(wildcard include/config/arm/cpu/topology.h) \
     $(wildcard include/config/disable/cpu/sched/domain/balance.h) \
   include/asm-generic/topology.h \
@@ -379,15 +380,15 @@ deps_/home/tom/work/mysochip/build_s3evb/module/led/led.o := \
     $(wildcard include/config/constructors.h) \
     $(wildcard include/config/debug/set/module/ronx.h) \
   include/linux/stat.h \
-  /home/tom/work/mysochip/build_s3evb/linux-3.4/arch/arm/include/asm/stat.h \
+  /root/SDK/build_s3evb/linux-3.4/arch/arm/include/asm/stat.h \
   include/linux/kmod.h \
   include/linux/sysctl.h \
     $(wildcard include/config/sysctl.h) \
   include/linux/rbtree.h \
   include/linux/elf.h \
   include/linux/elf-em.h \
-  /home/tom/work/mysochip/build_s3evb/linux-3.4/arch/arm/include/asm/elf.h \
-  /home/tom/work/mysochip/build_s3evb/linux-3.4/arch/arm/include/asm/user.h \
+  /root/SDK/build_s3evb/linux-3.4/arch/arm/include/asm/elf.h \
+  /root/SDK/build_s3evb/linux-3.4/arch/arm/include/asm/user.h \
   include/linux/moduleparam.h \
     $(wildcard include/config/alpha.h) \
     $(wildcard include/config/ia64.h) \
@@ -396,16 +397,16 @@ deps_/home/tom/work/mysochip/build_s3evb/module/led/led.o := \
   include/linux/static_key.h \
   include/linux/jump_label.h \
     $(wildcard include/config/jump/label.h) \
-  /home/tom/work/mysochip/build_s3evb/linux-3.4/arch/arm/include/asm/jump_label.h \
-  /home/tom/work/mysochip/build_s3evb/linux-3.4/arch/arm/include/asm/system.h \
-  /home/tom/work/mysochip/build_s3evb/linux-3.4/arch/arm/include/asm/exec.h \
-  /home/tom/work/mysochip/build_s3evb/linux-3.4/arch/arm/include/asm/switch_to.h \
-  /home/tom/work/mysochip/build_s3evb/linux-3.4/arch/arm/include/asm/system_info.h \
-  /home/tom/work/mysochip/build_s3evb/linux-3.4/arch/arm/include/asm/system_misc.h \
+  /root/SDK/build_s3evb/linux-3.4/arch/arm/include/asm/jump_label.h \
+  /root/SDK/build_s3evb/linux-3.4/arch/arm/include/asm/system.h \
+  /root/SDK/build_s3evb/linux-3.4/arch/arm/include/asm/exec.h \
+  /root/SDK/build_s3evb/linux-3.4/arch/arm/include/asm/switch_to.h \
+  /root/SDK/build_s3evb/linux-3.4/arch/arm/include/asm/system_info.h \
+  /root/SDK/build_s3evb/linux-3.4/arch/arm/include/asm/system_misc.h \
   include/linux/export.h \
     $(wildcard include/config/symbol/prefix.h) \
     $(wildcard include/config/modversions.h) \
-  /home/tom/work/mysochip/build_s3evb/linux-3.4/arch/arm/include/asm/module.h \
+  /root/SDK/build_s3evb/linux-3.4/arch/arm/include/asm/module.h \
     $(wildcard include/config/arm/unwind.h) \
   include/linux/miscdevice.h \
   include/linux/major.h \
@@ -428,8 +429,8 @@ deps_/home/tom/work/mysochip/build_s3evb/module/led/led.o := \
     $(wildcard include/config/irq/time/accounting.h) \
   include/linux/ftrace_irq.h \
     $(wildcard include/config/ftrace/nmi/enter.h) \
-  /home/tom/work/mysochip/build_s3evb/linux-3.4/arch/arm/include/asm/hardirq.h \
-  /home/tom/work/mysochip/build_s3evb/linux-3.4/arch/arm/include/asm/irq.h \
+  /root/SDK/build_s3evb/linux-3.4/arch/arm/include/asm/hardirq.h \
+  /root/SDK/build_s3evb/linux-3.4/arch/arm/include/asm/irq.h \
     $(wildcard include/config/sparse/irq.h) \
   include/linux/irq_cpustat.h \
   include/linux/hrtimer.h \
@@ -479,14 +480,14 @@ deps_/home/tom/work/mysochip/build_s3evb/module/led/led.o := \
   include/linux/dqblk_qtree.h \
   include/linux/nfs_fs_i.h \
   include/linux/fcntl.h \
-  /home/tom/work/mysochip/build_s3evb/linux-3.4/arch/arm/include/asm/fcntl.h \
+  /root/SDK/build_s3evb/linux-3.4/arch/arm/include/asm/fcntl.h \
   include/asm-generic/fcntl.h \
   include/linux/delay.h \
-  /home/tom/work/mysochip/build_s3evb/linux-3.4/arch/arm/include/asm/delay.h \
+  /root/SDK/build_s3evb/linux-3.4/arch/arm/include/asm/delay.h \
   include/linux/cdev.h \
   include/linux/io.h \
     $(wildcard include/config/has/ioport.h) \
-  /home/tom/work/mysochip/build_s3evb/linux-3.4/arch/arm/include/asm/io.h \
+  /root/SDK/build_s3evb/linux-3.4/arch/arm/include/asm/io.h \
     $(wildcard include/config/need/mach/io/h.h) \
     $(wildcard include/config/pcmcia/soc/common.h) \
     $(wildcard include/config/pci.h) \
@@ -496,7 +497,133 @@ deps_/home/tom/work/mysochip/build_s3evb/module/led/led.o := \
     $(wildcard include/config/no/generic/pci/ioport/map.h) \
     $(wildcard include/config/generic/pci/iomap.h) \
   arch/arm/mach-sunxi/include/mach/io.h \
+  include/linux/pwm.h \
+    $(wildcard include/config/pwm.h) \
+    $(wildcard include/config/have/pwm.h) \
+    $(wildcard include/config/debug/fs.h) \
+  include/linux/pinctrl/pinconf.h \
+    $(wildcard include/config/pinconf.h) \
+    $(wildcard include/config/generic/pinconf.h) \
+  include/linux/pinctrl/pinconf-sunxi.h \
+  include/linux/pinctrl/consumer.h \
+  arch/arm/mach-sunxi/include/mach/platform.h \
+  arch/arm/mach-sunxi/include/mach/hardware.h \
+  arch/arm/mach-sunxi/include/mach/sun8i/platform-sun8iw8p1.h \
+  include/linux/power_supply.h \
+    $(wildcard include/config/leds/triggers.h) \
+    $(wildcard include/config/power/supply.h) \
+  include/linux/leds.h \
+    $(wildcard include/config/leds/trigger/ide/disk.h) \
+  include/linux/wakelock.h \
+    $(wildcard include/config/has/wakelock.h) \
+    $(wildcard include/config/wakelock/stat.h) \
+  include/linux/kthread.h \
+  include/linux/sched.h \
+    $(wildcard include/config/sched/debug.h) \
+    $(wildcard include/config/no/hz.h) \
+    $(wildcard include/config/lockup/detector.h) \
+    $(wildcard include/config/detect/hung/task.h) \
+    $(wildcard include/config/core/dump/default/elf/headers.h) \
+    $(wildcard include/config/sched/autogroup.h) \
+    $(wildcard include/config/bsd/process/acct.h) \
+    $(wildcard include/config/taskstats.h) \
+    $(wildcard include/config/audit.h) \
+    $(wildcard include/config/cgroups.h) \
+    $(wildcard include/config/inotify/user.h) \
+    $(wildcard include/config/fanotify.h) \
+    $(wildcard include/config/posix/mqueue.h) \
+    $(wildcard include/config/keys.h) \
+    $(wildcard include/config/perf/events.h) \
+    $(wildcard include/config/schedstats.h) \
+    $(wildcard include/config/task/delay/acct.h) \
+    $(wildcard include/config/sched/hmp.h) \
+    $(wildcard include/config/fair/group/sched.h) \
+    $(wildcard include/config/rt/group/sched.h) \
+    $(wildcard include/config/cgroup/sched.h) \
+    $(wildcard include/config/blk/dev/io/trace.h) \
+    $(wildcard include/config/rcu/boost.h) \
+    $(wildcard include/config/compat/brk.h) \
+    $(wildcard include/config/cc/stackprotector.h) \
+    $(wildcard include/config/sysvipc.h) \
+    $(wildcard include/config/rt/mutexes.h) \
+    $(wildcard include/config/task/xacct.h) \
+    $(wildcard include/config/cpusets.h) \
+    $(wildcard include/config/futex.h) \
+    $(wildcard include/config/fault/injection.h) \
+    $(wildcard include/config/latencytop.h) \
+    $(wildcard include/config/function/graph/tracer.h) \
+    $(wildcard include/config/have/unstable/sched/clock.h) \
+    $(wildcard include/config/cfs/bandwidth.h) \
+    $(wildcard include/config/stack/growsup.h) \
+    $(wildcard include/config/debug/stack/usage.h) \
+    $(wildcard include/config/mm/owner.h) \
+  include/linux/mm_types.h \
+    $(wildcard include/config/split/ptlock/cpus.h) \
+    $(wildcard include/config/have/cmpxchg/double.h) \
+    $(wildcard include/config/have/aligned/struct/page.h) \
+    $(wildcard include/config/want/page/debug/flags.h) \
+    $(wildcard include/config/aio.h) \
+    $(wildcard include/config/mmu/notifier.h) \
+    $(wildcard include/config/transparent/hugepage.h) \
+  include/linux/auxvec.h \
+  arch/arm/include/generated/asm/auxvec.h \
+  include/asm-generic/auxvec.h \
+  include/linux/page-debug-flags.h \
+    $(wildcard include/config/page/poisoning.h) \
+    $(wildcard include/config/page/guard.h) \
+    $(wildcard include/config/page/debug/something/else.h) \
+  /root/SDK/build_s3evb/linux-3.4/arch/arm/include/asm/mmu.h \
+    $(wildcard include/config/cpu/has/asid.h) \
+  arch/arm/include/generated/asm/cputime.h \
+  include/asm-generic/cputime.h \
+  include/linux/sem.h \
+  include/linux/ipc.h \
+  /root/SDK/build_s3evb/linux-3.4/arch/arm/include/asm/ipcbuf.h \
+  include/asm-generic/ipcbuf.h \
+  /root/SDK/build_s3evb/linux-3.4/arch/arm/include/asm/sembuf.h \
+  include/linux/signal.h \
+  /root/SDK/build_s3evb/linux-3.4/arch/arm/include/asm/signal.h \
+  include/asm-generic/signal-defs.h \
+  /root/SDK/build_s3evb/linux-3.4/arch/arm/include/asm/sigcontext.h \
+  arch/arm/include/generated/asm/siginfo.h \
+  include/asm-generic/siginfo.h \
+  include/linux/proportions.h \
+  include/linux/seccomp.h \
+    $(wildcard include/config/seccomp.h) \
+  include/linux/rtmutex.h \
+    $(wildcard include/config/debug/rt/mutexes.h) \
+  include/linux/plist.h \
+    $(wildcard include/config/debug/pi/list.h) \
+  include/linux/resource.h \
+  arch/arm/include/generated/asm/resource.h \
+  include/asm-generic/resource.h \
+  include/linux/task_io_accounting.h \
+    $(wildcard include/config/task/io/accounting.h) \
+  include/linux/latencytop.h \
+  include/linux/cred.h \
+    $(wildcard include/config/debug/credentials.h) \
+    $(wildcard include/config/user/ns.h) \
+  include/linux/key.h \
+  include/linux/selinux.h \
+    $(wildcard include/config/security/selinux.h) \
+  include/linux/llist.h \
+    $(wildcard include/config/arch/have/nmi/safe/cmpxchg.h) \
+  include/linux/aio.h \
+  include/linux/aio_abi.h \
+  include/linux/uio.h \
+  include/linux/debugfs.h \
+  include/linux/mfd/axp-mfd.h \
+  include/linux/mfd/axp-mfd-81x.h \
+  include/linux/mfd/axp-mfd-22.h \
+    $(wildcard include/config/axp809.h) \
+  include/linux/mfd/axp-mfd-19.h \
+  include/linux/mfd/axp-mfd-15.h \
+  include/linux/mfd/axp-mfd-20.h \
+  include/linux/arisc/arisc.h \
+  include/linux/power/aw_pm.h \
+    $(wildcard include/config/arch/sun8iw8.h) \
+  include/linux/power/axp_depend.h \
 
-/home/tom/work/mysochip/build_s3evb/module/led/led.o: $(deps_/home/tom/work/mysochip/build_s3evb/module/led/led.o)
+/root/SDK/build_s3evb/module/chgled/chgled.o: $(deps_/root/SDK/build_s3evb/module/chgled/chgled.o)
 
-$(deps_/home/tom/work/mysochip/build_s3evb/module/led/led.o):
+$(deps_/root/SDK/build_s3evb/module/chgled/chgled.o):
